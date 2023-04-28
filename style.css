@@ -1,0 +1,90 @@
+body {
+  background-color: #0f0f0f;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  border-bottom: 1px solid #444;
+}
+
+h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2.5rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+fieldset {
+  border: 1px solid #444;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+legend {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+label {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 0.5rem;
+}
+
+input[type="number"] {
+  width: 5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #444;
+  color: #fff;
+}
+
+button[type="submit"] {
+  background-color: #666;
+  text-align: center;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(16, 14, 14);
+  transition: background-color 0.3s ease;
+}
+
+#results {
+  margin-top: 2rem;
+}
+
+#results h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#results p {
+  margin: 0;
+}
+
+#results span {
+  font-weight: bold;
+}
